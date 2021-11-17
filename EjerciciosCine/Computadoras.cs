@@ -4,12 +4,14 @@ using System.Text;
 
 namespace EjerciciosCine
 {
-    class Computadoras
+    //Se crea la herencia para poder ingresar la categoria especifica del usuario
+    class Computadoras:Software
     {
         public string software { get; set; }
+
         public string Softwareinlcuido()
         {
-            return this.software = "prueba";
+            return this.software = "Visual Studio, PostgreSQL, SQL Server, Java, C++";
         }
     }
 }
